@@ -117,6 +117,20 @@ func (r *AwsAccountResource) Read(ctx context.Context, req resource.ReadRequest,
 		return
 	}
 
+	accountRes, err := r.client.GetAwsAccount(data.AccountId.ValueString())
+	if err != nil {
+		resp.Diagnostics.AddError("Cannot read account", fmt.Sprintf("Cannot read account: %s", err))
+	}
+	data.AccountId = types.StringValue(accountRes.AccountId)
+	data.RoleArn = types.StringValue(accountRes.RoleArn)
+	data.ExternalId = types.StringValue(accountRes.ExternalId)
+	regionsList, diags := types.ListValueFrom(ctx, types.StringType, accountRes.Regions)
+	if diags.HasError() {
+		resp.Diagnostics.AddError("Cannot read regions", fmt.Sprintf("Cannot read regions: %s", accountRes.Regions))
+		return
+	}
+	data.Regions = regionsList
+
 	resp.Diagnostics.Append(resp.State.Set(ctx, &data)...)
 }
 

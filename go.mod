@@ -5,7 +5,7 @@ go 1.25.5
 require (
 	github.com/hashicorp/terraform-plugin-framework v1.17.0
 	github.com/hashicorp/terraform-plugin-log v0.10.0
-	github.com/sweet-security/go-sweet v0.0.0-20260110184107-e7c1089e7615
+	github.com/sweet-security/go-sweet v0.0.0-20260112163925-98a8be5491c4
 )
 
 require (

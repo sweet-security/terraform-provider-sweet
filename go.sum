@@ -135,6 +135,10 @@ github.com/sweet-security/go-sweet v0.0.0-20260110184107-e7c1089e7615 h1:UL6PBwK
 github.com/sweet-security/go-sweet v0.0.0-20260110184107-e7c1089e7615/go.mod h1:uNS2RAOnw4LMRv7P89un1dJ1Vnecu2fXjybYwecw0kM=
 github.com/sweet-security/go-sweet v0.0.0-20260112163925-98a8be5491c4 h1:oxC6SxcdKOAS6j+R2F5Y2Lw1XCQnsJxnjkN+vajSN5w=
 github.com/sweet-security/go-sweet v0.0.0-20260112163925-98a8be5491c4/go.mod h1:uNS2RAOnw4LMRv7P89un1dJ1Vnecu2fXjybYwecw0kM=
+github.com/sweet-security/go-sweet v0.0.0-20260202213800-2eef9547d057 h1:FIl/KX4YdUQ40I1X3LgkO2U8tLcxbeasRDbyipPsmv4=
+github.com/sweet-security/go-sweet v0.0.0-20260202213800-2eef9547d057/go.mod h1:uNS2RAOnw4LMRv7P89un1dJ1Vnecu2fXjybYwecw0kM=
+github.com/sweet-security/go-sweet v0.0.0-20260203000201-7bff79158b5c h1:C2vApm4BEzLLoSEdN97qfkyCJw6RCdNKdNP9HUDjv4c=
+github.com/sweet-security/go-sweet v0.0.0-20260203000201-7bff79158b5c/go.mod h1:uNS2RAOnw4LMRv7P89un1dJ1Vnecu2fXjybYwecw0kM=
 github.com/vmihailenco/msgpack/v5 v5.4.1 h1:cQriyiUvjTwOHg8QZaPihLWeRAAVoCpE00IUPn0Bjt8=
 github.com/vmihailenco/msgpack/v5 v5.4.1/go.mod h1:GaZTsDaehaPpQVyxrf5mtQlH+pc21PIudVV/E3rRQok=
 github.com/vmihailenco/tagparser/v2 v2.0.0 h1:y09buUbR+b5aycVFQs/g70pqKVZNBmxwAhO7/IwNM9g=

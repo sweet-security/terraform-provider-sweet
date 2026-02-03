@@ -82,6 +82,7 @@ func (p *SweetProvider) Configure(ctx context.Context, req provider.ConfigureReq
 
 func (p *SweetProvider) Resources(ctx context.Context) []func() resource.Resource {
 	return []func() resource.Resource{
+		NewApiKeyResource,
 		NewAwsAccountResource,
 		NewAwsOrganizationResource,
 	}
